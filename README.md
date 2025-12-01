@@ -5,6 +5,28 @@ It covers seven categories: Travel, Fashion, Photography, Art, Astronomy, Career
 
 The main goal is to practice and demonstrate mastery of HTML structures, including semantic tags, forms, tables, navigation, and media embedding.
 
+File Organization
+
+The project structure is organized as follows:
+
+├── index.html
+├── about.html
+├── contact.html
+├── services.html
+├── README.md
+├── assets/
+│   └── images/
+│       ├── about.jpg
+│       ├── art1.jpg
+│       ├── astronomy1.jpg
+│       ├── banner.jpg
+│       ├── career1.jpg
+│       ├── event1.jpg
+│       ├── fashion1.jpg
+│       ├── photo1.jpg
+│       └── travel1.jpg
+
+
 Challenges Faced
 
 Structuring a navigation menu and category sections without CSS.
