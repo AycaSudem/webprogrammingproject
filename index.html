@@ -1,99 +1,120 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LUNA'S BLOG - Home</title>
-    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50 font-sans">
-    <header class="bg-indigo-900 text-white p-6 flex flex-col md:flex-row justify-between items-center">
-        <h1 class="text-2xl font-bold"> LUNA'S BLOG</h1>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>LUNA'S BLOG</h1>
         <nav>
-            <ul class="flex flex-wrap gap-4">
-                <li><a href="index.html" class="hover:text-pink-300 font-medium">Home</a></li>
-                <li><a href="about.html" class="hover:text-pink-300 font-medium">About</a></li>
-                <li><a href="services.html" class="hover:text-pink-300 font-medium">Projects</a></li>
-                <li><a href="contact.html" class="hover:text-pink-300 font-medium">Contact</a></li>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        <hr>
     </header>
 
-    <main class="max-w-6xl mx-auto p-6">
-        <h2 class="text-3xl font-bold text-center mb-4">Welcome to My Blog</h2>
-        <p class="text-center text-gray-700 mb-8">Explore my world through different categories. Click on any category to discover more!</p>
-        <hr class="my-6" />
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <h2>Welcome to My Blog</h2>
+        <p>Explore my world through different categories. Click on any category to discover more!</p>
+        <hr>
 
         <!-- Banner -->
-        <img src="assets/images/banner.jpg" alt="LUNA'S BLOG Banner" class="w-full max-w-4xl mx-auto rounded-lg shadow-md mb-8" />
+        <figure>
+            <img src="assets/images/banner.jpg" alt="LUNA Blog Banner" width="100%">
+            <figcaption></figcaption>
+        </figure>
 
-        <!-- Categories Grid -->
-        <table class="w-full border-collapse">
+        <h3>Categories</h3>
+
+        <!-- GRID USING TABLE (CSS YASAK OLDUĞU İÇİN) -->
+        <table border="1" width="100%" cellpadding="10">
             <tbody>
+
                 <tr>
-                    <td class="p-4 md:p-6 w-full md:w-1/2 text-center">
-                        <a href="travel.html" class="block">
-                            <img src="assets/images/travel1.jpg" class="w-full rounded object-cover h-48 mb-3" alt="Travel Adventures" />
-                            <h3 class="text-xl font-semibold text-indigo-800"> Travel Adventures</h3>
-                            <p class="text-gray-600 mt-2">Stories and memories from places I visited around the world.</p>
+                    <td align="center">
+                        <a href="travel.html">
+                            <img src="assets/images/travel1.jpg" width="100%" height="200">
+                            <h4>Travel Adventures</h4>
+                            <p>Stories from places I visited around the world.</p>
                         </a>
                     </td>
-                    <td class="p-4 md:p-6 w-full md:w-1/2 text-center">
-                        <a href="photography.html" class="block">
-                            <img src="assets/images/photo1.jpg" class="w-full rounded object-cover h-48 mb-3" alt="Photography Moments" />
-                            <h3 class="text-xl font-semibold text-indigo-800"> Photography Moments</h3>
-                            <p class="text-gray-600 mt-2">My favorite captures and creative photography ideas.</p>
+
+                    <td align="center">
+                        <a href="photography.html">
+                            <img src="assets/images/photo1.jpg" width="100%" height="200">
+                            <h4>Photography Moments</h4>
+                            <p>My favorite captures and creative photography ideas.</p>
                         </a>
                     </td>
                 </tr>
+
                 <tr>
-                    <td class="p-4 md:p-6 w-full md:w-1/2 text-center">
-                        <a href="fashion.html" class="block">
-                            <img src="assets/images/fashion1.jpg" class="w-full rounded object-cover h-48 mb-3" alt="Fashion Inspirations" />
-                            <h3 class="text-xl font-semibold text-indigo-800"> Fashion Inspirations</h3>
-                            <p class="text-gray-600 mt-2">Styles, trends, and outfits that inspire me every day.</p>
+                    <td align="center">
+                        <a href="fashion.html">
+                            <img src="assets/images/fashion1.jpg" width="100%" height="200">
+                            <h4>Fashion Inspirations</h4>
+                            <p>Styles, trends, and outfits that inspire me.</p>
                         </a>
                     </td>
-                    <td class="p-4 md:p-6 w-full md:w-1/2 text-center">
-                        <a href="art.html" class="block">
-                            <img src="assets/images/art1.jpg" class="w-full rounded object-cover h-48 mb-3" alt="Art & Creativity" />
-                            <h3 class="text-xl font-semibold text-indigo-800"> Art & Creativity</h3>
-                            <p class="text-gray-600 mt-2">Paintings, drawings, and creative expressions.</p>
+
+                    <td align="center">
+                        <a href="art.html">
+                            <img src="assets/images/art1.jpg" width="100%" height="200">
+                            <h4>Art & Creativity</h4>
+                            <p>Paintings, drawings, and creative expressions.</p>
                         </a>
                     </td>
                 </tr>
+
                 <tr>
-                    <td class="p-4 md:p-6 w-full md:w-1/2 text-center">
-                        <a href="astronomy.html" class="block">
-                            <img src="assets/images/astronomy1.jpg" class="w-full rounded object-cover h-48 mb-3" alt="Astronomy & Space" />
-                            <h3 class="text-xl font-semibold text-indigo-800"> Astronomy & Space</h3>
-                            <p class="text-gray-600 mt-2">Thoughts about stars, planets, and the vast universe.</p>
+                    <td align="center">
+                        <a href="astronomy.html">
+                            <img src="assets/images/astronomy1.jpg" width="100%" height="200">
+                            <h4>Astronomy & Space</h4>
+                            <p>Thoughts about stars, planets, and the universe.</p>
                         </a>
                     </td>
-                    <td class="p-4 md:p-6 w-full md:w-1/2 text-center">
-                        <a href="career.html" class="block">
-                            <img src="assets/images/career1.jpg" class="w-full rounded object-cover h-48 mb-3" alt="Career Journey" />
-                            <h3 class="text-xl font-semibold text-indigo-800"> Career Journey</h3>
-                            <p class="text-gray-600 mt-2">My professional progress and future career goals.</p>
+
+                    <td align="center">
+                        <a href="career.html">
+                            <img src="assets/images/career1.jpg" width="100%" height="200">
+                            <h4>Career Journey</h4>
+                            <p>My professional growth and goals.</p>
                         </a>
                     </td>
                 </tr>
+
                 <tr>
-                    <td colspan="2" class="p-4 md:p-6 text-center">
-                        <a href="events.html" class="block">
-                            <img src="assets/images/event1.jpg" class="w-full rounded object-cover h-64 mb-3" alt="Event Highlights" />
-                            <h3 class="text-xl font-semibold text-indigo-800"> Event Highlights</h3>
-                            <p class="text-gray-600 mt-2">Special events, celebrations, and memorable activities I attended.</p>
+                    <td colspan="2" align="center">
+                        <a href="events.html">
+                            <img src="assets/images/event1.jpg" width="100%" height="250">
+                            <h4>Event Highlights</h4>
+                            <p>Special events and memorable activities.</p>
                         </a>
                     </td>
                 </tr>
+
             </tbody>
         </table>
+
     </main>
 
-    <footer class="bg-indigo-900 text-white text-center p-6 mt-10">
-        <p> 2025 Ayca Sudem Harnupcu | Luna's Blog</p>
+    <footer>
+        <hr>
+        <p>2025 Ayca Sudem Harnupcu – Luna's Blog</p>
         <p><small>Educational project for Web Programming Course</small></p>
     </footer>
+
 </body>
 </html>
