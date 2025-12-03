@@ -1,61 +1,85 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - LUNA'S BLOG</title>
-    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50 font-sans">
-    <header class="bg-indigo-900 text-white p-6 flex flex-col md:flex-row justify-between items-center">
-        <h1 class="text-2xl font-bold"> LUNA'S BLOG</h1>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>LUNA'S BLOG</h1>
+
         <nav>
-            <ul class="flex flex-wrap gap-4">
-                <li><a href="index.html" class="hover:text-pink-300 font-medium">Home</a></li>
-                <li><a href="about.html" class="hover:text-pink-300 font-medium">About</a></li>
-                <li><a href="services.html" class="hover:text-pink-300 font-medium">Projects</a></li>
-                <li><a href="contact.html" class="hover:text-pink-300 font-medium">Contact</a></li>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+
+        <hr>
     </header>
 
-    <main class="max-w-3xl mx-auto p-6">
-        <h2 class="text-3xl font-bold mb-6"> Get In Touch</h2>
-        <p class="mb-8">I’d love to hear from you!</p>
+    <!-- MAIN CONTENT -->
+    <main>
 
-        <form action="#" method="post" class="space-y-6">
-            <div>
-                <label for="fullname" class="block mb-1">Full Name *</label>
-                <input type="text" id="fullname" name="fullname" required class="w-full border rounded px-3 py-2" />
-            </div>
-            <div>
-                <label for="email" class="block mb-1">Email *</label>
-                <input type="email" id="email" name="email" required class="w-full border rounded px-3 py-2" />
-            </div>
-            <div>
-                <label for="subject" class="block mb-1">Subject *</label>
-                <input type="text" id="subject" name="subject" required class="w-full border rounded px-3 py-2" />
-            </div>
-            <div>
-                <label for="message" class="block mb-1">Message *</label>
-                <textarea id="message" name="message" rows="5" required class="w-full border rounded px-3 py-2"></textarea>
-            </div>
-            <button type="submit" class="bg-indigo-600 text-white px-6 py-2 rounded hover:bg-indigo-700">Send Message</button>
+        <h2>Contact Me</h2>
+        <p>If you have any questions, suggestions, or collaboration ideas, feel free to reach out using the form below.</p>
+
+        <!-- CONTACT FORM -->
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend><strong>Personal Information</strong></legend>
+
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend><strong>Your Message</strong></legend>
+
+                <label for="subject">Subject:</label><br>
+                <input type="text" id="subject" name="subject" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="6" required></textarea><br><br>
+            </fieldset>
+
+            <br>
+
+            <button type="submit">Send Message</button>
         </form>
 
-        <hr class="my-10" />
+        <hr>
 
-        <section>
-            <h3 class="text-xl font-bold mb-4"> Other Ways to Connect</h3>
-            <p><strong>Email:</strong> aycasudm@gmail.com</p>
-            <p><strong>Languages:</strong> English & Turkish</p>
-            <p><strong>Location:</strong> Turkey</p>
-        </section>
+        <!-- PAGE NAVIGATION -->
+        <nav>
+            <h4>Explore More:</h4>
+            <ul>
+                <li><a href="index.html">← Back to Home</a></li>
+                <li><a href="services.html">View Projects</a></li>
+            </ul>
+        </nav>
+
     </main>
 
-    <footer class="bg-indigo-900 text-white text-center p-6 mt-10">
-        <p> 2025 Ayca Sudem Harnupcu | Luna's Blog</p>
-        <p><small>Educational project for Web Programming Course</small></p>
+    <hr>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>2025 Ayca Sudem Harnupcu | Luna's Blog</p>
+        <small>Educational project for Web Programming Course</small>
     </footer>
+
 </body>
 </html>
