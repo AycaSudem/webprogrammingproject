@@ -1,95 +1,139 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About - LUNA'S BLOG</title>
-    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50 font-sans">
-    <header class="bg-indigo-900 text-white p-6 flex flex-col md:flex-row justify-between items-center">
-        <h1 class="text-2xl font-bold"> LUNA'S BLOG</h1>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>LUNA'S BLOG</h1>
+
         <nav>
-            <ul class="flex flex-wrap gap-4">
-                <li><a href="index.html" class="hover:text-pink-300 font-medium">Home</a></li>
-                <li><a href="about.html" class="hover:text-pink-300 font-medium">About</a></li>
-                <li><a href="services.html" class="hover:text-pink-300 font-medium">Projects</a></li>
-                <li><a href="contact.html" class="hover:text-pink-300 font-medium">Contact</a></li>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+
+        <hr>
     </header>
 
-    <main class="max-w-4xl mx-auto p-6">
-        <h2 class="text-3xl font-bold mb-6">About Me</h2>
+    <!-- MAIN CONTENT -->
+    <main>
 
-        <figure class="mb-8">
-            <img src="assets/images/about.jpg" class="w-full rounded-lg object-cover h-64" alt="Creative workspace">
-            <figcaption class="text-center italic text-gray-600 mt-2">My creative workspace where all the magic happens</figcaption>
+        <h2>About Me</h2>
+
+        <!-- ABOUT IMAGE -->
+        <figure>
+            <img src="assets/images/about.jpg" alt="Creative workspace" width="100%">
+            <figcaption>My creative workspace where all the magic happens</figcaption>
         </figure>
 
-        <section class="mb-8">
-            <h3 class="text-xl font-semibold mb-3">Hello, I'm Luna! </h3>
-            <p class="mb-3">
-                Welcome to my personal blog where I share my journey through life, creativity, and exploration. I'm a passionate <strong>blogger, photographer, and creative enthusiast</strong> who loves documenting experiences across various aspects of life.
-            </p>
+        <!-- INTRO -->
+        <section>
+            <h3>Hello, I'm Luna!</h3>
             <p>
-                This blog started as a simple journal in <time datetime="2025">2024</time>, but it has grown into a platform where I express myself through multiple creative outlets. From capturing stunning photographs to exploring fashion trends, from stargazing adventures to career insights—this space reflects who I am and what I love.
+                Welcome to my personal blog where I share experiences from different parts of my life. 
+                I enjoy writing about topics that inspire me such as travel, art, photography, fashion 
+                and astronomy.
+            </p>
+
+            <p>
+                This blog started as a simple journal in 
+                <time datetime="2024">2024</time>, and eventually became a space where I can express 
+                myself freely through creativity, learning and exploration.
             </p>
         </section>
 
-        <hr class="my-8" />
+        <hr>
 
-        <section class="mb-8">
-            <h3 class="text-2xl font-bold mb-4">My Journey</h3>
-            <article class="mb-6">
-                <h4 class="text-lg font-semibold"> Education & Background</h4>
-                <p>I'm currently studying <strong>Computer Engineering</strong> and constantly learning new skills in technology, design, and creative expression.</p>
-            </article>
-            <article class="mb-6">
-                <h4 class="text-lg font-semibold"> Passions & Interests</h4>
-                <p>My interests span across multiple domains: <em>astronomy</em>, <em>fashion</em>, <em>photography</em>, and <em>art</em>.</p>
-            </article>
+        <!-- JOURNEY SECTION -->
+        <section>
+            <h3>My Journey</h3>
+
             <article>
-                <h4 class="text-lg font-semibold"> Life Philosophy</h4>
-                <blockquote class="border-l-4 border-indigo-500 pl-4 italic my-3">
+                <h4>Education & Background</h4>
+                <p>
+                    I am currently studying <strong>Computer Engineering</strong>. I enjoy improving 
+                    myself in technology, design and creative expression.
+                </p>
+            </article>
+
+            <article>
+                <h4>Passions & Interests</h4>
+                <p>
+                    My interests include <em>astronomy</em>, <em>fashion</em>, <em>photography</em>, 
+                    <em>art</em> and exploring new ideas.
+                </p>
+            </article>
+
+            <article>
+                <h4>Life Philosophy</h4>
+                <blockquote>
                     "Life is too short to not explore, create, and share your unique perspective with the world."
                 </blockquote>
             </article>
         </section>
 
-        <hr class="my-8" />
+        <hr>
 
-        <aside class="mb-8">
-            <h3 class="text-2xl font-bold mb-4">Quick Facts About Me</h3>
-            <dl class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                <div><dt class="font-semibold">Name:</dt><dd>Ayca Sudem Harnupcu (Luna)</dd></div>
-                <div><dt class="font-semibold">Location:</dt><dd>Turkey 🇹🇷</dd></div>
-                <div><dt class="font-semibold">Blog Started:</dt><dd><time datetime="2024">2024</time></dd></div>
-                <div><dt class="font-semibold">Favorite Categories:</dt><dd>Art, Travel, Fashion</dd></div>
-                <div><dt class="font-semibold">Hobbies:</dt><dd>Photography, Reading, Stargazing, Fashion, Painting</dd></div>
-                <div><dt class="font-semibold">Motto:</dt><dd>"The universe is full of magical things..."</dd></div>
+        <!-- QUICK FACTS -->
+        <aside>
+            <h3>Quick Facts About Me</h3>
+
+            <dl>
+                <dt>Name:</dt>
+                <dd>Ayca Sudem Harnupcu (Luna)</dd>
+
+                <dt>Location:</dt>
+                <dd>Turkey 🇹🇷</dd>
+
+                <dt>Blog Started:</dt>
+                <dd><time datetime="2024">2024</time></dd>
+
+                <dt>Favorite Categories:</dt>
+                <dd>Art, Travel, Fashion</dd>
+
+                <dt>Hobbies:</dt>
+                <dd>Photography, Reading, Stargazing, Fashion, Painting</dd>
+
+                <dt>Motto:</dt>
+                <dd>"The universe is full of magical things..."</dd>
             </dl>
         </aside>
 
-        <hr class="my-8" />
+        <hr>
 
-        <section class="mb-8">
-            <h3 class="text-2xl font-bold mb-4">Why I Blog</h3>
-            <p class="mb-3">Blogging allows me to connect with like-minded individuals and share my journey.</p>
-            <p>Feel free to <a href="contact.html" class="text-indigo-600 hover:underline">reach out</a> anytime!</p>
+        <!-- WHY I BLOG -->
+        <section>
+            <h3>Why I Blog</h3>
+            <p>Blogging helps me share my ideas and connect with people who enjoy similar topics.</p>
+            <p>Feel free to <a href="contact.html">reach out</a> anytime!</p>
         </section>
 
-        <nav class="text-center">
-            <ul class="flex flex-wrap justify-center gap-4">
-                <li><a href="index.html" class="text-indigo-600 hover:underline">← Back to Home</a></li>
-                <li><a href="services.html" class="text-indigo-600 hover:underline">View My Projects →</a></li>
+        <!-- PAGE NAVIGATION -->
+        <nav>
+            <ul>
+                <li><a href="index.html">&larr; Back to Home</a></li>
+                <li><a href="services.html">View My Projects &rarr;</a></li>
             </ul>
         </nav>
+
     </main>
 
-    <footer class="bg-indigo-900 text-white text-center p-6 mt-10">
-        <p> 2025 Ayca Sudem Harnupcu | Luna's Blog</p>
-        <p><small>Educational project for Web Programming Course</small></p>
+    <hr>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>2025 Ayca Sudem Harnupcu | Luna's Blog</p>
+        <small>Educational project for Web Programming Course</small>
     </footer>
+
 </body>
 </html>
